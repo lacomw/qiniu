@@ -25,7 +25,8 @@ public class Application {
         ModelAndView modelAndView = new ModelAndView("home");
         System.out.println("in index");
         modelMap.put("num","123");
-        return "home";
+//        return "home";
+        return "index";
     }
 
     public static void main(String[] args) throws Exception {

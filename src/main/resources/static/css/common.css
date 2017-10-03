@@ -1,0 +1,90 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{border:0;margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{color:#3e3a39;font-size:12px;text-align:center;font-family:"Microsoft YaHei" !important;outline:0;}
+body{background:#ffffff;}
+a{color:#3e3a39;text-decoration:none; cursor:pointer;}
+a:link, a:visited{text-decoration:none;}
+a:hover, a:active, a:focus{text-decoration:underline;}
+.block,#block{display:block;}
+.none{display:none;}
+.fl{float:left;}
+.fr{float:right;}
+/* clearfix -----*/
+.clear:after, .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clear, .clearfix { display: inline-block; } /* Hide from IE Mac \*/ .clear, .clearfix { display: block; }
+/* End hide from IE Mac */ .none { display: none; } /* End Clearfix */
+
+/* header ----------*/
+.set_header{ width:100%; position:relative; border-bottom:3px solid #e1e3e7; margin:0 auto; padding:0; z-index:10;}
+.sub_header{ position:relative; width:1000px; margin:0 auto; padding:25px 0 0 0;}
+.header{ position:relative; width:1000px; margin:0 auto; padding:25px 0 0 0; border-bottom:3px solid #cda972;z-index:10;}
+
+.header_top{ position:relative; width:1000px; margin:0 auto; padding:25px 250px 0; border-bottom:3px solid #cda972;z-index:10;}
+
+.thelogo{ float:left; width:181px; display:inline; margin:0 auto; padding:0; overflow:hidden;}
+.thelogo img{ display:block;}
+.nav_search{ float:right; width:780px; margin:0 auto; padding:0; overflow:hidden;}
+.search{ clear:both; margin:0 auto 25px; _margin:0 auto; _height:44px; padding:0; overflow:hidden;}
+.search input{ float:right; background:#f4f4f4; height:19px; line-height:18px; width:112px; margin:0 auto; padding:0 4px; text-align:left;}
+.search img{ float:right; cursor:pointer; }
+.search p{ float:right; display:inline; margin:0 18px 0 0; }
+.nav{ clear:both; height:31px; _height:33px;}
+ul.nav li{ float:left; display:inline; width:102px; font-size:14px; background:url(../!images/nav_bg.jpg) no-repeat right 4px; padding:0 10px 0 0; margin:0 auto;}
+ul.nav li.nobg{ background:none; padding:0;}
+ul.nav li p{ width:84px; margin:0 9px; padding:0 0 9px 0;}
+ul.nav li p a:link, ul.nav li p a:visited{text-decoration:none;}
+ul.nav li p a:hover, ul.nav li p a:active, ul.nav li p a:focus{text-decoration:none;}
+
+ul.nav li p.couent{ border-bottom:2px solid #e70012;}
+ul.nav li p.current{ border-bottom:2px solid #e70012;}
+
+.nav_subnav{display:none; position:absolute; top:100px; left:0; border-top:1px solid #e70012; width:100%; _width:1000px; _top:102px; z-index:99; zoom:1;}
+.header_top .nav_subnav{display:none; position:absolute; top:100px; left:0; border-top:1px solid #e70012; width:100%; _width:1500px; _top:102px; z-index:99; zoom:1;}
+
+.subnav{ width:130px; padding:12px 0; filter:alpha(opacity=90); -moz-opacity:0.9; -khtml-opacity: 0.9; opacity: 0.9; background:#f8f8f8;}
+.subnav_1{ position:absolute; left:205px;}
+.subnav_2{ position:absolute; left:318px;}
+.subnav_3{ position:absolute; left:430px;}
+.subnav_4{ position:absolute; left:542px;}
+.subnav_5{ position:absolute; left:654px;}
+.subnav_6{ position:absolute; left:765px;}
+.subnav_7{ position:absolute; left:878px; width:122px;}
+
+.header_top .subnav_1{ position:absolute; left:455px;}
+.header_top .subnav_2{ position:absolute; left:568px;}
+.header_top .subnav_3{ position:absolute; left:680px;}
+.header_top .subnav_4{ position:absolute; left:792px;}
+.header_top .subnav_5{ position:absolute; left:904px;}
+.header_top .subnav_6{ position:absolute; left:1015px;}
+.header_top .subnav_7{ position:absolute; left:1130px;}
+
+.subnav ul li{ background:none; float:none; display:block; height:25px; line-height:25px; margin:0 auto 6px; width:100%; padding:0;}
+.subnav ul li a{ display:block; width:100%; height:100%;}
+.subnav ul li a:link, .subnav ul li a:visited{text-decoration:none; background:none;}
+.subnav ul li a:hover, .subnav ul li a:active, .subnav ul li a:focus{text-decoration:none; background:#c2c2c2;}
+
+.sunvim_intr{ float:right; width:742px; display:inline; padding:6px 0 6px 40px;border-left:1px solid #b3b2b1;}
+.sunvim_intr p.sunvim_img{ float:left; display:inline; width:232px; margin:0 40px 0 0; padding:0; overflow:hidden;}
+.sunvim_intr p.sunvim_main{ float:left; display:inline; width:424px; text-align:left; font-size:14px; line-height:24px;}
+
+/* footer ----------*/
+.set_footer{ clear:both; width:100%; margin:15px auto 0; padding:0; background:#e4e4e4; overflow:hidden;}
+.sub_footer{clear:both; width:1000px; margin:0 auto; padding:0; overflow:hidden; height:44px; line-height:44px;}
+.footer{ clear:both; width:1000px; margin:15px auto 0; padding:0; overflow:hidden; height:44px; line-height:44px;}
+.copyright{ float:left;}
+.footer_nav{ float:right;}
