@@ -44,7 +44,7 @@ a:hover, a:active, a:focus{text-decoration:underline;}
 .search img{ float:right; cursor:pointer; }
 .search p{ float:right; display:inline; margin:0 18px 0 0; }
 .nav{ clear:both; height:31px; _height:33px;}
-ul.nav li{ float:left; display:inline; width:102px; font-size:14px; background:url(../!images/nav_bg.jpg) no-repeat right 4px; padding:0 10px 0 0; margin:0 auto;}
+ul.nav li{ float:left; display:inline; width:102px; font-size:14px; background:url(../img/nav_bg.jpg) no-repeat right 4px; padding:0 10px 0 0; margin:0 auto;}
 ul.nav li.nobg{ background:none; padding:0;}
 ul.nav li p{ width:84px; margin:0 9px; padding:0 0 9px 0;}
 ul.nav li p a:link, ul.nav li p a:visited{text-decoration:none;}
